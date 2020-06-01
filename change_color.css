@@ -1,0 +1,92 @@
+/* Youtube Link: https://youtu.be/Dv-ZFh5RqFc  */
+/* Created by: Truzz Blogg */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+body {
+    background: rgb(42, 0, 58);
+}
+
+h1, h5 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('img/test.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* border: 1px solid blue; */
+}
+
+#btngreen {
+    position: absolute;
+    top: 270px;
+    left: 370px;
+}
+
+#btnblue {
+    position: absolute;
+    top: 320px;
+    left: 370px;
+}
+
+#btnpink {
+    position: absolute;
+    top: 370px;
+    left: 370px;
+}
+
+#btntomato {
+    position: absolute;
+    top: 420px;
+    left: 370px;
+}
+
+#btndefault {
+    position: absolute;
+    top: 520px;
+    left: 370px;
+    
+}
+
+div input#btndefault {
+    background-color: darkslateblue;
+    color: white;
+    width: 80px;
+    height: 30px;
+}
+
+input {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: lightblue;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.box {
+    width: 550px;
+    height: 350px;
+    top: 0px;
+    left: 250px;
+    border: 3px groove white;
+    background: #556677;
+}
+
+
